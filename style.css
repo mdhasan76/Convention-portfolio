@@ -1,0 +1,118 @@
+.gray {
+    color: gray;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+a.navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+.carousel-text {
+    width: 60%;
+}
+
+.carousel-caption h5 {
+    font-size: 3.5rem;
+}
+
+.carousel-btn {
+    font-weight: 500;
+}
+
+.album-text {
+    font-weight: 500;
+}
+
+.album-text h1 {
+    font-weight: 700;
+}
+
+.album-btn {
+    font-weight: 600;
+}
+
+
+
+
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-body ul li {
+    padding: 7px 0;
+}
+
+.card-body ul li:before {
+    content: "\f00c";
+    font-family: "font awesome 5 free";
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 3px;
+    background-color: rgb(204, 218, 204);
+    color: rgb(67, 67, 232);
+    border-radius: 50%;
+}
+
+.card-body {
+    transition: .3s ease-out;
+}
+
+.col-lg-3:hover .card-body {
+    background-color: #0d6efd;
+    color: white !important;
+    border-radius: 20px;
+    padding: 0 10px;
+    transform: translate(8px, -30px);
+}
+
+.col-lg-3:hover .gray {
+    color: white;
+}
+
+.client-card {
+    box-shadow: 8px 9px 17px 11px #f6f6f6;
+    padding: 22px;
+}
+
+.client-sub {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.accordion-title-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.footer-p {
+    font-size: 12px;
+}
+
+.btn-footer {
+    font-size: 20px;
+}
+
+.btn-footer a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 10px;
+}
+
+.btn-footer a i {
+    padding-right: 10px;
+}
